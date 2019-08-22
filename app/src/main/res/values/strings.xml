@@ -3,6 +3,7 @@
     <string name="peso">Peso</string>
     <string name="altura">Altura</string>
     <string name="dica_peso">Insira o peso</string>
-    <string name="dica_altura" >Insira a altura</string>
+    <string name="dica_altura">Insira a altura</string>
     <string name="btn">Calcular</string>
+    <string name="info">Informações</string>
 </resources>
