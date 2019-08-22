@@ -12,18 +12,20 @@ import java.lang.annotation.Target;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    //Objetos encapsulados
     private EditText editTextPeso;
     private EditText editTextAltura;
     private TextView textViewResultado;
 
 
-
+    //Metódo Principal
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        //Vinculado os objetos com elementos do layout
         editTextPeso = findViewById(R.id.edit_text_peso);
         editTextAltura = findViewById(R.id.edit_text_altura);
         textViewResultado = findViewById(R.id.text_view_resultado);
