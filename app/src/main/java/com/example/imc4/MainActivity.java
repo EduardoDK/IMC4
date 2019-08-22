@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Vinculado os objetos com elementos do layout
+        //Vinculado os objetos com elementos do layouts
         editTextPeso = findViewById(R.id.edit_text_peso);
         editTextAltura = findViewById(R.id.edit_text_altura);
         textViewResultado = findViewById(R.id.text_view_resultado);
